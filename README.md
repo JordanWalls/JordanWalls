@@ -2,11 +2,11 @@
 
 I run Woofie's of North Fort Worth, a mobile pet grooming business, and work full-time as a systems analyst.
 
-I build AI agents and Codex tools that handle real work in the business: lead intake, bookings, visit notes and invoice drafts.
+I use AI agents and Codex tools for real work in the business. Minerva and Atlas take booking requests, and I confirm them. Tiro, the newer booking program, is still being built.
 
 What I've learned: let AI read the messy input, and let code enforce the rules and verify what was saved.
 
-- Live build: [bookyournextgroom.com](https://bookyournextgroom.com), a client booking app built with Codex
+- Live build: [bookyournextgroom.com](https://bookyournextgroom.com), my Easy Booking service-request site, built with Codex
 - Writing: [@BowTiedHamilton](https://x.com/BowTiedHamilton)
 
 ## Selected work
@@ -17,12 +17,12 @@ What I've learned: let AI read the messy input, and let code enforce the rules a
 
 [See the walkthrough and design decisions](docs/booking-app-case-study.md)
 
-<a href="docs/booking-app-case-study.md"><img src="assets/care-needs-full.png" alt="Public walks and sitting needs advisor with situation-based service choices" width="360"></a>
+<a href="docs/booking-app-case-study.md"><img src="assets/care-recommendation-full.jpg" alt="Public pet-care recommendation screen with visit options and pricing-confirmation notice" width="360"></a>
 
 *Public interface, November 1, 2026.*
 
 ### From AI-assisted work to persistent software
 
-I started with individual customer messages, expanded into agent-assisted business workflows, and now use AI coding tools to turn those processes into persistent software. Codex built the server foundation; Cursor built the newer booking implementation. That newer build is in Practice mode with sandbox/sample operating data, not live customer bookings.
+I started with individual customer messages, expanded into agent-assisted business workflows, and now use AI coding tools to turn those processes into persistent software. Codex built the server foundation and is working alongside Cursor on Tiro. As of November 1, 2026, Codex is handling the server-side build and real-model Practice runs; Cursor has added extraction tracing. This work is still in progress. Tiro is unfinished; Practice uses sandbox/sample operating data, not live customer bookings.
 
 [Explore the projects and current status](PROJECTS.md) · [From specification to code](docs/spec-to-code.md)
